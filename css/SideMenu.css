@@ -1,0 +1,33 @@
+nav.side-menu > #content-menu-list {
+  display: flex;
+  list-style-type: none;
+  font-size: 14px;
+  flex-wrap: wrap;
+  font-weight: bold;
+  height: 16px;
+}
+
+nav.side-menu > #content-menu-list > .content-menu-item {
+  width: max-content;
+  cursor: pointer;
+  margin: 0 5px;
+}
+
+nav.side-menu > #content-menu-list > .content-menu-item > .line-under-selected-option {
+  display: none;
+  height: 1.5px;
+  background-color: #262626;
+}
+
+ .link, .link:hover, .link:focus, .link:active {
+      text-decoration: none;
+      color: inherit;
+ }
+
+#portfolio-side-header-menu{
+  margin-right: 35px;
+}
+
+nav.side-menu > #content-menu-list > .content-menu-item:hover > .line-under-selected-option {
+display: block;
+}

@@ -1,0 +1,47 @@
+.central-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+.central-card{
+  background-color: #F2F1F0;
+  border: 4px solid #262626;
+  border-radius: 10px;
+  width: 70%;
+  height: max-content;
+  padding: 30px;
+}
+
+#portfolio-card-header{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.card-main-section > .text-container > #name-title-container  {
+  padding: 50px;
+  font-size: 30px;
+  padding-bottom: 18px;
+}
+
+.card-main-section > .text-container > #name-title-container > #last-name {
+  margin-left: 20px;
+}
+
+.card-main-section > .text-container {
+  width: 50%;
+}
+
+.card-main-section > .text-container > p {
+  padding-left: 80px;
+  font-size: 10px;
+}
+
+.card-main-section {
+  display: flex;
+  justify-content: space-between;
+}

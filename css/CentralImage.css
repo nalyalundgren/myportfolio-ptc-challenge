@@ -1,0 +1,9 @@
+#card-main-section-image  {
+ padding: 40px;
+
+}
+
+#card-main-section-image > .image {
+  height: 100%;
+  width: 100%;
+}
